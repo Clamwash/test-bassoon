@@ -13,9 +13,6 @@
 		6A919F982A5436C500D2087D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A919F962A5436C500D2087D /* Main.storyboard */; };
 		6A919F9A2A5436C600D2087D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A919F992A5436C600D2087D /* Assets.xcassets */; };
 		6A919F9D2A5436C600D2087D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A919F9B2A5436C600D2087D /* LaunchScreen.storyboard */; };
-		6A919FA82A5436C600D2087D /* bossonTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A919FA72A5436C600D2087D /* bossonTestTests.swift */; };
-		6A919FB22A5436C600D2087D /* bossonTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A919FB12A5436C600D2087D /* bossonTestUITests.swift */; };
-		6A919FB42A5436C600D2087D /* bossonTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A919FB32A5436C600D2087D /* bossonTestUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,10 +42,7 @@
 		6A919F9C2A5436C600D2087D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A919F9E2A5436C600D2087D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A919FA32A5436C600D2087D /* bossonTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bossonTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6A919FA72A5436C600D2087D /* bossonTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bossonTestTests.swift; sourceTree = "<group>"; };
 		6A919FAD2A5436C600D2087D /* bossonTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bossonTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6A919FB12A5436C600D2087D /* bossonTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bossonTestUITests.swift; sourceTree = "<group>"; };
-		6A919FB32A5436C600D2087D /* bossonTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bossonTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				6A919F8F2A5436C500D2087D /* bossonTest */,
-				6A919FA62A5436C600D2087D /* bossonTestTests */,
-				6A919FB02A5436C600D2087D /* bossonTestUITests */,
 				6A919F8E2A5436C500D2087D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,23 +100,6 @@
 				6A919F9E2A5436C600D2087D /* Info.plist */,
 			);
 			path = bossonTest;
-			sourceTree = "<group>";
-		};
-		6A919FA62A5436C600D2087D /* bossonTestTests */ = {
-			isa = PBXGroup;
-			children = (
-				6A919FA72A5436C600D2087D /* bossonTestTests.swift */,
-			);
-			path = bossonTestTests;
-			sourceTree = "<group>";
-		};
-		6A919FB02A5436C600D2087D /* bossonTestUITests */ = {
-			isa = PBXGroup;
-			children = (
-				6A919FB12A5436C600D2087D /* bossonTestUITests.swift */,
-				6A919FB32A5436C600D2087D /* bossonTestUITestsLaunchTests.swift */,
-			);
-			path = bossonTestUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,7 +243,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A919FA82A5436C600D2087D /* bossonTestTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +250,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A919FB42A5436C600D2087D /* bossonTestUITestsLaunchTests.swift in Sources */,
-				6A919FB22A5436C600D2087D /* bossonTestUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
